@@ -73,7 +73,13 @@ python visualization/vis_gt.py
 Visualize results of our DSG model:
 ```shell
 python visualization/vis_dsg.py
+
 ```
+
+## Visualization Demo
+<img src="pictures/vis1.gif" width="600">
+
+<img src="pictures/vis2.gif" width="600">
 
 ## Citations
 If you find our work useful in your research, please consider citing:

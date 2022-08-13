@@ -1,14 +1,14 @@
 stage: 3
 seed: 123
-resume_dir: my_runs/LineTR_s2/ckpts/last_checkpoint.pt
+resume_dir: my_runs/DSG_s2/ckpts/last_checkpoint.pt
 save_model: True
 save_log: True
-save_path: my_runs/LineTR_s3
+save_path: my_runs/DSG_s3
 if_debug: False
 debug_interval: 150
 eos_coef: 0.1
 
-num_epochs: 1
+num_epochs: 30
 print_interval: 25
 save_step: 2
 aux_weight: 0.2

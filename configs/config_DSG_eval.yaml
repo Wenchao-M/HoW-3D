@@ -1,7 +1,7 @@
 stage: 4
 seed: 123
-resume_dir: my_runs/LineTR_s4/ckpts/network_epoch_49.pt
-save_path: results_s4_f
+resume_dir: my_runs/DSG_s4/ckpts/last_checkpoint.pt
+save_path: results
 save_log: False
 if_debug: True
 debug_interval: 150

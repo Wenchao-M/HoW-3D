@@ -3,12 +3,12 @@ seed: 123
 resume_dir: None
 save_model: True
 save_log: True
-save_path: my_runs/LineTR_s1
+save_path: my_runs/DSG_s1
 if_debug: False
 debug_interval: 150
 eos_coef: 0.1
 
-num_epochs: 1
+num_epochs: 30
 print_interval: 25
 save_step: 2
 aux_weight: 0.2

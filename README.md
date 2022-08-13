@@ -97,7 +97,7 @@ year={2022}
 }
 ```
 
-## Contact
+## Contact Info
 [mawenchao@whu.edu.cn](mawenchao@whu.edu.cn)
 
 [https://xuenan.net/](https://xuenan.net/)

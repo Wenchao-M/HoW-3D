@@ -1,0 +1,126 @@
+stage: 1
+seed: 123
+resume_dir: None
+save_model: True
+save_log: True
+save_path: my_runs/LineTR_s1
+if_debug: False
+debug_interval: 150
+eos_coef: 0.1
+
+num_epochs: 1
+print_interval: 25
+save_step: 2
+aux_weight: 0.2
+weight_hafm: 1
+
+solver:
+  method: adam
+  lr: 0.0001
+  weight_decay: 0.00001
+  lr_step: 15
+  gamma: 0.5
+
+dataset:
+  name: 'ABC-HoW'
+  root_dir: DATA_FOLDER/
+  batch_size: 16  #-----------------------------------------------
+  num_workers: 8
+  root_dir_names: []
+
+ENCODER:
+  DIS_TH: 5
+  ANG_TH: 0.1
+  NUM_STATIC_POS_LINES: 50
+  NUM_STATIC_NEG_LINES: 40
+
+hawp:
+  USE_RESIDUAL: True
+  MAX_DISTANCE: 5.0
+  N_DYN_JUNC:   300
+  N_DYN_POSL:   300
+  N_DYN_NEGL:   0
+  N_DYN_OTHR:   0
+  N_DYN_OTHR2:  300
+  N_PTS0: 32
+  N_PTS1: 8
+  DIM_LOI: 128
+  DIM_FC: 1024
+  N_OUT_JUNC: 50
+  N_OUT_LINE: 200
+  HEAD_SIZE: [[3], [1], [1], [2], [2] ,[1], [2], [2],[1], [2], [2],[1]]
+  LOSS_WEIGHTS:
+    loss_md: 1.0 # angle regression
+    loss_dis: 1.0 # dis   regression
+    loss_res: 1.0      # residual regression
+    loss_joff_v: 0.25    # joff  regression
+    loss_jloc_v: 8.0     # jloc  classification
+    loss_jdepth_v: 8.0
+    loss_joff_h: 0.25
+    loss_jloc_h: 8.0
+    loss_jdepth_h: 8.0
+    loss_joff_vh: 0.25
+    loss_jloc_vh: 8.0
+    loss_jdepth_vh: 8.0
+    loss_pos: 1.0
+    loss_neg: 1.0
+
+
+model:
+  arch: hrnet_w32
+  pretrained: True
+  stride: 1
+  fix_bn: False
+  num_sample_pts: 32
+  hrnet_w32:
+    PRETRAINED: 'ckpts/hrnetv2_w32_imagenet_pretrained.pth'
+    STAGE1:
+      NUM_MODULES: 1
+      NUM_RANCHES: 1
+      BLOCK: BOTTLENECK
+      NUM_BLOCKS:
+        - 4
+      NUM_CHANNELS:
+        - 64
+      FUSE_METHOD: SUM
+    STAGE2:
+      NUM_MODULES: 1
+      NUM_BRANCHES: 2
+      BLOCK: BASIC
+      NUM_BLOCKS:
+        - 4
+        - 4
+      NUM_CHANNELS:
+        - 32
+        - 64
+      FUSE_METHOD: SUM
+    STAGE3:
+      NUM_MODULES: 4
+      NUM_BRANCHES: 3
+      BLOCK: BASIC
+      NUM_BLOCKS:
+        - 4
+        - 4
+        - 4
+      NUM_CHANNELS:
+        - 32
+        - 64
+        - 128
+      FUSE_METHOD: SUM
+    STAGE4:
+      NUM_MODULES: 3
+      NUM_BRANCHES: 4
+      BLOCK: BASIC
+      NUM_BLOCKS:
+        - 4
+        - 4
+        - 4
+        - 4
+      NUM_CHANNELS:
+        - 32
+        - 64
+        - 128
+        - 256
+      FUSE_METHOD: SUM
+
+

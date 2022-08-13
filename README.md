@@ -3,6 +3,8 @@
 This is the official implementation code of our 3DV 2022 paper. 
 
 
+<img src="pictures/model.pdf" width="600">
+
 ## Getting Started
 Clone the repository:
 ```shell

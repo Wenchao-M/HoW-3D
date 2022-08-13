@@ -5,6 +5,10 @@ This is the official implementation code of our 3DV 2022 paper.
 
 <img src="pictures/model.png" width="600">
 
+<img src="pictures/vis1.gif" width="600">
+
+<img src="pictures/vis2.gif" width="600">
+
 ## Getting Started
 Clone the repository:
 ```shell
@@ -75,11 +79,6 @@ Visualize results of our DSG model:
 python visualization/vis_dsg.py
 
 ```
-
-## Visualization Demo
-<img src="pictures/vis1.gif" width="600">
-
-<img src="pictures/vis2.gif" width="600">
 
 ## Citations
 If you find our work useful in your research, please consider citing:

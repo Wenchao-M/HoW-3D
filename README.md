@@ -1,8 +1,9 @@
-# HoW-3D: Holistic 3D Wireframe Perception from a Single Image,
+# HoW-3D: Holistic 3D Wireframe Perception from a Single Image
+
 This is the official implementation code of our 3DV 2022 paper. 
 
 
-##Getting Started
+## Getting Started
 Clone the repository:
 ```shell
 git clone https://github.com/Wenchao-M/HoW-3D.git
@@ -20,7 +21,7 @@ python setup.py build_ext --inplace
 
 ## Data Preparation
 
-Please download our ABC-HoW dataset [here] (https://drive.google.com/file/d/1NPNq4JDvV5p9Kli1acUZP05uzgKnrjUg/view?usp=sharing)
+Please download our ABC-HoW dataset [here](https://drive.google.com/file/d/1NPNq4JDvV5p9Kli1acUZP05uzgKnrjUg/view?usp=sharing)
 and place it under the 'data' folder.
 
 ## Training

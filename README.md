@@ -1,7 +1,6 @@
 # HoW-3D: Holistic 3D Wireframe Perception from a Single Image
 
-This is the official implementation code of our 3DV 2022 paper. 
-
+This is the official implementation code of our [3DV 2022 paper](https://arxiv.org/abs/2208.06999). 
 
 <img src="pictures/model.png" width="600">
 

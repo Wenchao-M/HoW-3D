@@ -1,0 +1,151 @@
+absl-py==0.15.0
+addict==2.4.0
+anyio==3.3.3
+argon2-cffi==21.1.0
+async-generator==1.10
+attrs==21.2.0
+Babel==2.9.1
+backcall==0.2.0
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1631874778482/work
+bleach==4.1.0
+blessings==1.7
+brotlipy==0.7.0
+cachetools==4.2.4
+certifi==2021.5.30
+cffi @ file:///tmp/build/80754af9/cffi_1625814693874/work
+chardet @ file:///tmp/build/80754af9/chardet_1607706739153/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+colorama==0.4.4
+conda==4.10.3
+conda-build==3.21.5
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262155238/work
+contextvars==2.4
+cryptography @ file:///tmp/build/80754af9/cryptography_1616769282133/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///tmp/build/80754af9/dask-core_1615055117017/work
+dataclasses==0.8
+decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
+defusedxml==0.7.1
+deprecation==2.1.0
+docopt==0.6.2
+easydict==1.9
+entrypoints==0.3
+filelock @ file:///home/linux1/recipes/ci/filelock_1610993975404/work
+gitdb==4.0.7
+GitPython==3.1.18
+glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
+google-auth==2.3.0
+google-auth-oauthlib==0.4.6
+gpustat==0.6.0
+grpcio==1.41.0
+idna @ file:///tmp/build/80754af9/idna_1622654382723/work
+imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+immutables==0.16
+importlib-metadata==4.8.1
+ipykernel==5.5.6
+ipython==7.16.1
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+jedi==0.18.0
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
+joblib==1.1.0
+json5==0.9.6
+jsonpickle==1.5.2
+jsonschema==3.2.0
+jupyter-client==7.0.6
+jupyter-core==4.8.1
+jupyter-packaging==0.10.6
+jupyter-server==1.11.1
+jupyterlab==3.1.18
+jupyterlab-pygments==0.1.2
+jupyterlab-server==2.8.2
+jupyterlab-widgets==1.0.2
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282412546/work
+libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+Markdown==3.3.4
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528150516/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1613407855456/work
+mistune==0.8.4
+munch==2.5.0
+nbclassic==0.3.2
+nbclient==0.5.4
+nbconvert==6.0.7
+nbformat==5.1.3
+nest-asyncio==1.5.1
+networkx @ file:///tmp/build/80754af9/networkx_1598376031484/work
+notebook==6.4.4
+numpy==1.19.5
+nvidia-ml-py3==7.352.0
+oauthlib==3.1.1
+olefile==0.46
+open3d==0.13.0
+opencv-python==4.5.3.56
+packaging==21.0
+pandas==1.1.5
+pandocfilters==1.5.0
+parso==0.8.2
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///tmp/build/80754af9/pillow_1625649052827/work
+pkginfo==1.7.1
+prometheus-client==0.11.0
+prompt-toolkit==3.0.20
+protobuf==3.19.0
+psutil @ file:///tmp/build/80754af9/psutil_1612297621795/work
+ptyprocess==0.7.0
+py-cpuinfo==8.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments==2.10.0
+pymongo==3.12.0
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent==0.18.0
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305763431/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///tmp/build/80754af9/pywavelets_1601658315997/work
+PyYAML==5.4.1
+pyzmq==22.3.0
+requests @ file:///tmp/build/80754af9/requests_1629994808627/work
+requests-oauthlib==1.3.0
+requests-unixsocket==0.2.0
+rsa==4.7.2
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016274869/work
+sacred==0.8.2
+scikit-image==0.17.2
+scikit-learn==0.24.2
+scipy==1.5.4
+Send2Trash==1.8.0
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smmap==4.0.0
+sniffio==1.2.0
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1616183228191/work
+tensorboard==2.7.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+tensorboardX==2.4
+terminado==0.12.1
+testpath==0.5.0
+threadpoolctl==3.0.0
+tifffile==2020.10.1
+tomlkit==0.7.2
+toolz @ file:///home/linux1/recipes/ci/toolz_1610987900194/work
+torch==1.4.0
+torchvision==0.5.0
+tornado @ file:///tmp/build/80754af9/tornado_1606942266872/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1631818572807/work
+traitlets==4.3.3
+typing-extensions==3.10.0.2
+urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
+wcwidth==0.2.5
+webencodings==0.5.1
+websocket-client==1.2.1
+Werkzeug==2.0.2
+widgetsnbextension==3.5.1
+wrapt==1.12.1
+zipp==3.6.0
